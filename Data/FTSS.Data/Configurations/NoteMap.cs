@@ -7,8 +7,14 @@
     {
         public NoteMap()
         {
-            // Primary Key
             this.HasKey(t => t.Id);
+
+            this.Property(t => t.Name)
+                .IsRequired()
+                .HasMaxLength(50);
+
+            this.Property(t => t.NoteText)
+                .IsRequired();
         }
     }
 }

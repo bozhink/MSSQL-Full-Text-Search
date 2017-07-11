@@ -63,6 +63,6 @@
     <Build Include="Notes.sql" />
     <Build Include="FullTextCatalog.sql" />
     <Build Include="FullTextIndex.sql" />
-    <Build Include="UI_Notes_Text.sql" />
+    <Build Include="UI_Notes_Name.sql" />
   </ItemGroup>
 </Project>
